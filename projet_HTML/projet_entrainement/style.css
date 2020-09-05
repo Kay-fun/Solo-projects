@@ -1,0 +1,105 @@
+body
+{
+    background-image: url("image/wallpaper.png");
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-shadow: 0.5px 1px 1px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a:hover /*survole de la souris*/
+{
+    color: royalblue;
+}
+
+a:active /*clic*/
+{
+    color: palevioletred;
+}
+
+a:focus /*Tab avec carré*/
+{
+    background-color: grey;
+}
+
+p
+{
+    color: rgb(58, 58, 58);
+}
+
+.overflow
+{
+    color: green;
+    border: 2px solid black;
+    overflow: auto;
+    width: 500px;
+    height: 150px;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+}
+
+.center
+{
+    text-align: center;
+}
+
+h1
+{
+    font-size: 46px;
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+    box-shadow: 1px 2px 3px black;
+    border: 3px pink inset;
+    border-radius: 40px / 20px;
+    padding: 12px;
+}
+
+h2
+{
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3
+{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h6
+{
+    text-decoration: overline;
+}
+
+strong
+{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+mark
+{
+    font-size: larger;
+    color: red;
+}
+
+ul
+{
+    text-align: left;
+}
+
+li:hover
+{
+    text-decoration: underline;
+    color: red;
+}
+
+em
+{
+    font-size: larger;
+    color :red;
+}
