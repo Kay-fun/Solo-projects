@@ -17,5 +17,5 @@ while not(n >= 2 and n <= 100) :
 seed() # initialise le générateur de nombres aléatoires
 t = listAleaFloat(n) # construction de la liste
 
-print("Amplitude : { :.2f}".format(max(t) - min(t)))
-print("Moyenne : { :.2f}".format(sum(t)/n))
+print("Amplitude : {:.2f}".format(max(t) - min(t)))
+print("Moyenne : {:.2f}".format(sum(t)/n))
