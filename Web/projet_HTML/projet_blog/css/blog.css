@@ -304,3 +304,12 @@ ul .info
     font-size: 20px;
     text-decoration: underline;
 }
+
+form fieldset
+{
+    position: :relative;
+    height: 200px;
+    width: 1000px;
+    overflow: auto;
+    border: 2px solid none;
+}
