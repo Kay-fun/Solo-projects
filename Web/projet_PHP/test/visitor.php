@@ -18,5 +18,13 @@
             <li style="color: red;">Texte en rouge</li>
             <li style="color: green;">Texte en vert</li>
         </ul>
+        <h6>
+            <p>Date de connexion : <?php echo date('d/m/Y h:i:s'); ?></p>
+            <?php
+                $modif = '12/09/2020';
+
+                echo 'Dernière modification : ' . $modif . ' ';
+            ?>
+        </h6>
     </body>
 </html>

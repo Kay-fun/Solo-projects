@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css" />
+	<title>Formulaire d'inscription</title>
+</head>
+<body>
+	<div id="bloc_page">
+        <header>
+            <div id="titre_principal">
+            	<div id="logo">
+            		<img src="images/mon_logo.png" alt="Logo" />
+            		<h1>Kay-fun</h1>    
+            	</div>
+
+        		<h2>En ce qui me concerne...</h2>
+            </div>
+        </header>
+            
+        <div id="banniere_image">
+            <div id="banniere_description"></div>
+        </div>
+    </div>
+	<form method="post" action="#">
+		<fieldset>
+			<legend>Yeaaaaaaaaah !!!</legend>
+			<p>
+				<label for="nom">Name :</label>
+				<input type="text" name="nom" id="nom" placeholder="Name" size="20" maxlength="40" required="">
+			</p>
+			<p>
+				<label for="prénom">First name :</label>
+				<input type="text" name="prénom" id="prénom" placeholder="First name" size="20" maxlength="40" required="">
+			</p>
+			<p>
+				<label for="password">Password :</label>
+				<input type="password" name="password" id="password" placeholder="Your password" required="">
+			</p>
+			<p>
+				<label for="email">Email :</label>
+				<input type="email" name="email" id="email" placeholder="my-email@email.com" required="">
+			</p>
+			<p>
+				<label for="website">Website :</label>
+				<input type="url" name="website" id="website" placeholder="https://blablabla.com">
+			</p>
+			<p>
+				<label for="phone">Phone (optionnal) :</label>
+				<input type="tel" name="phone" id="phone">
+			</p>
+			<p>
+				<label for="avis">Ceci est mon premier formulaire ! Votre avis est la bienvenue :)</label><br/><br/>
+				<textarea name="avis" id="avis" placeholder="Maximum 500 caractères" maxlength="500" rows="10" cols="50"></textarea>
+			</p>
+			<input type="reset" name="Reset this form">
+			<input type="submit" name="Submit">
+		</fieldset>
+	</form>
+</body>
+</html>
