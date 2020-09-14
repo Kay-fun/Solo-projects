@@ -6,8 +6,8 @@ MAX = 8
 
 # Programme principal =========================================================
 nbd = int(input("Nombre de dés [2 .. {:d}] :".format(MAX)))
-while not(nbd >= 2and nbd <= MAX) :
-    nbd = int(input("Nombre de dés [2 .. {:d}], s.v.p. :".format(MAX)))
+while not(nbd >= 2 and nbd <= MAX) :
+    nbd = int(input("Nombre de dés [2 .. {:d}], faut le remplir sinon ça ne marche pas :".format(MAX)))
 
 s = int(input("Entrez un entier [{:d} .. {:d}] :".format(nbd, 6*nbd)))
 while not(s >= nbd and s <= 6*nbd) :
