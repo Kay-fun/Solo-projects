@@ -237,7 +237,6 @@ footer h1
     font-size: 1.1em;
 }
 
-
 #update
 {
     width: 28%;
@@ -307,7 +306,7 @@ ul .info
 
 form fieldset
 {
-    position: :relative;
+    position: relative;
     height: 200px;
     width: 1000px;
     overflow: auto;
